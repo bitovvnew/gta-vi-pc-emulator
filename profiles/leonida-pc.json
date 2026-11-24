@@ -1,0 +1,59 @@
+{
+  "project": "LEONIDA",
+  "status": "proposed test configurations",
+  "render_scale_percent": 100,
+  "upscaling": false,
+  "frame_generation": false,
+  "profiles": [
+    {
+      "profile": "1080p baseline",
+      "cpu": "Ryzen 5 3600",
+      "gpu": "GeForce GTX 1660 Super",
+      "ram_gb": 16,
+      "width": 1920,
+      "height": 1080,
+      "target_fps": 30,
+      "measured_fps": null
+    },
+    {
+      "profile": "1080p performance",
+      "cpu": "Core i5-12400F",
+      "gpu": "Radeon RX 6700 XT",
+      "ram_gb": 16,
+      "width": 1920,
+      "height": 1080,
+      "target_fps": 60,
+      "measured_fps": null
+    },
+    {
+      "profile": "1440p reference",
+      "cpu": "Ryzen 7 5800X3D",
+      "gpu": "GeForce RTX 4070",
+      "ram_gb": 32,
+      "width": 2560,
+      "height": 1440,
+      "target_fps": 60,
+      "measured_fps": null
+    },
+    {
+      "profile": "1440p Radeon",
+      "cpu": "Ryzen 7 5800X3D",
+      "gpu": "Radeon RX 7800 XT",
+      "ram_gb": 32,
+      "width": 2560,
+      "height": 1440,
+      "target_fps": 60,
+      "measured_fps": null
+    },
+    {
+      "profile": "4K resolution test",
+      "cpu": "Ryzen 7 7800X3D",
+      "gpu": "GeForce RTX 4080",
+      "ram_gb": 32,
+      "width": 3840,
+      "height": 2160,
+      "target_fps": 30,
+      "measured_fps": null
+    }
+  ]
+}
