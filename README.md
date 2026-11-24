@@ -1,16 +1,29 @@
-# GTA 6 PC Emulator
+# LEONIDA
 
-![Illustrated Ocean Drive at sunset — winter preview cover](assets/ocean-drive.jpg)
+**Grand Theft Auto VI · PC emulation for Windows**
 
-**Windows development preview**　·　[Performance](#performance-profile)　·　[Hardware](#hardware-and-settings)　·　[Compatibility](#gameplay-compatibility)　·　[Windows release](#windows-release)
+![Ocean Drive at sunset, illustrated for LEONIDA](assets/ocean-drive.jpg)
 
-The winter preview tracks an independent effort to run Grand Theft Auto VI on PC. The maintainer’s latest estimate puts gameplay coverage at **roughly 17%**. The reference profile targets **60 FPS at native 2560 × 1440 on a GeForce RTX 4070**. A public frame-time capture for that profile is pending.
+LEONIDA is an independent GTA VI emulation project for Windows. Explore five proposed PC configurations across GeForce and Radeon hardware, from native 1080p to 4K. The first public Windows executable is planned for winter.
 
-| Gameplay coverage | Graphics target | Render scale | Windows build |
-| :--- | :--- | :--- | :--- |
-| ~17% · maintainer estimate | 1440p / 60 FPS | 100% native | Winter preview planned |
+## PC profiles
 
-## Performance profile
+Each row pairs a proposed test machine with a native resolution and frame-rate goal. Measured results and minimum system requirements are pending.
+
+| Profile | Processor | Graphics | RAM | Native resolution | FPS target |
+| :--- | :--- | :--- | ---: | ---: | ---: |
+| 1080p baseline | Ryzen 5 3600 | GeForce GTX 1660 Super | 16 GB | 1920 × 1080 | 30 |
+| 1080p performance | Core i5-12400F | Radeon RX 6700 XT | 16 GB | 1920 × 1080 | 60 |
+| 1440p reference | Ryzen 7 5800X3D | GeForce RTX 4070 | 32 GB | 2560 × 1440 | 60 |
+| 1440p Radeon | Ryzen 7 5800X3D | Radeon RX 7800 XT | 32 GB | 2560 × 1440 | 60 |
+| 4K resolution test | Ryzen 7 7800X3D | GeForce RTX 4080 | 32 GB | 3840 × 2160 | 30 |
+
+**How to read the profiles.** The two 1440p machines share a processor, memory capacity and frame-rate goal so testers can compare GeForce and Radeon captures over the same route. The 4K profile trades frame rate for resolution: its 30 FPS target allows 33.33 ms per frame, versus 16.67 ms for the 1440p target. All five profiles specify 100% render scale with upscaling and frame generation disabled.
+
+[Explore all five profile specifications](profiles/leonida-pc.json) · [Inspect the RTX 4070 reference](profiles/rtx-4070-native-1440p.json) · [Windows release notes](releases/README.md)
+
+
+## Frame pacing
 
 At native 1440p, a single frame contains **3,686,400 output pixels**. At 60 frames per second, the renderer has **16.67 ms per frame**. The profile keeps upscaling and frame generation disabled so the capture can report how frequently the application presents a rendered frame.
 
@@ -39,22 +52,6 @@ A 50 ms frame occupies the time of three evenly paced frames at 60 FPS. That hit
 
 The table counts output pixels. Actual GPU cost also depends on scene complexity, materials, shadows and post-processing. A resolution change alone cannot predict the frame rate of the development build.
 
-## Hardware and settings
-
-| Component or setting | Reference profile |
-| :--- | :--- |
-| Platform | Windows PC |
-| Graphics card | NVIDIA GeForce RTX 4070 |
-| Internal render dimensions | 2560 × 1440 |
-| Display output | 2560 × 1440 |
-| Resolution scaling | 100% |
-| Upscaling / frame generation | Off / off |
-| Performance objective | Approximately 60 rendered FPS |
-| CPU, system memory, graphics driver | To be recorded with the first published capture |
-| Minimum and recommended PC specifications | Pending tests across multiple systems |
-
-The [machine-readable RTX 4070 profile](profiles/rtx-4070-native-1440p.json) stores the target and measured FPS in separate fields. The measured value stays empty until a capture is available.
-
 ## Gameplay compatibility
 
 The **17% figure** is the maintainer’s estimate of how much gameplay currently runs. Its scope is still open: the repository does not yet identify a mission list, a test route or a denominator. Readers can use the following proposed checks to interpret the next compatibility update.
@@ -78,12 +75,6 @@ A reader should be able to select a build, repeat the route and compare the same
 
 ## Windows release
 
-**Coming in winter.** The first official executable from this independent project is planned for Windows. The exact date, build number and download are pending. The [release preview](releases/README.md) tracks packaging status.
+**Coming in winter.** The planned download is the LEONIDA Windows executable. Build number, release date and download link are pending. [Follow the Windows release preview](releases/README.md).
 
-| Available now | Purpose |
-| :--- | :--- |
-| [Target profile](profiles/rtx-4070-native-1440p.json) | Inspect the native 1440p settings |
-| [Benchmark sheet](BENCHMARK.md) | Prepare a reproducible performance report |
-| [Release notes](releases/README.md) | Check the Windows build status |
-
-*Independent fan project. Unaffiliated with Rockstar Games or Take-Two Interactive. The cover is original concept art.*
+*LEONIDA is an independent fan project, unaffiliated with Rockstar Games or Take-Two Interactive. The cover is original concept art.*
