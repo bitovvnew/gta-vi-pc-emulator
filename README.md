@@ -6,6 +6,10 @@
 
 LEONIDA is an independent GTA VI emulation project for Windows. Explore five proposed PC configurations across GeForce and Radeon hardware, from native 1080p to 4K. The first public Windows executable is planned for winter.
 
+## Winter browser demo
+
+**Soon · December 22, 2026.** The four-week preview includes an original coastal drive with keyboard and touch controls. Download the repository ZIP, extract it and open `preview/index.html` to play offline. [Explore the browser demo](preview/README.md).
+
 ## PC profiles
 
 Each row pairs a proposed test machine with a native resolution and frame-rate goal. Measured results and minimum system requirements are pending.
