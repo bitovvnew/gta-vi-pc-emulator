@@ -1,30 +1,24 @@
 # LEONIDA
 
-![Palm-lined highway at sunset](coast.svg)
+<p align="center"><img src="assets/leonida.svg" width="132" alt="LEONIDA alligator emblem"></p>
 
-**Independent GTA VI fan project · Winter preview**
+**Xbox Edition for PC · Winter preview · December 22, 2026**
 
-Take a short drive along an illustrated coastal highway. Steer with the arrow keys or the on-screen controls, watch the distance counter, and pause anywhere along the route. The demo is a standalone browser scene created for LEONIDA.
+LEONIDA is an independent GTA VI fan project preparing a Windows edition inspired by the Xbox release. We believe players should have more say than a corporate platform in how they play. Our first public preview is a small coastal drive that runs entirely in your browser.
 
-## Open the demo
+## Play the browser demo
 
-Download the repository using **Code → Download ZIP**, extract it and open **index.html** in a browser. Keep **coast.svg** beside the HTML file. The page works offline and requires no installation.
+Download and extract the project, then open **index.html**. Choose **Launch drive** and steer using the arrow keys or the on-screen buttons. The page, artwork and demo work offline.
 
-## Soon. December 22, 2026.
+## Repository guide
 
-The four-week countdown runs from November 24 to December 22 at 00:00 UTC. It marks the planned winter preview. A Windows executable and measured gameplay benchmarks are pending.
-
-## Visual references
-
-- **Ocean Drive at dusk.** Coral light on the skyline gives way to a dark violet road.
-- **The coastal highway.** Lane markings converge at the horizon while a rose-colored coupe follows steering input.
-- **Winter reveal.** A live countdown sits beneath the drive and changes to a date-reached message when the preview window opens.
-
-## Project files
-
-| File | Contents |
+| Directory | Contents |
 | --- | --- |
-| [index.html](index.html) | English landing page, countdown and interactive drive |
-| [coast.svg](coast.svg) | Original vector artwork shared by the page and the demo |
+| [assets](assets/) | Original alligator emblem |
+| [docs](docs/xbox-edition.md) | Xbox Edition plans and winter release status |
+| [runtime](runtime/) | Browser driving scene and countdown logic |
+| [viewer](viewer/) | Responsive terminal interface |
 
-Independent fan project, unaffiliated with Rockstar Games or Take-Two Interactive.
+## Coming soon
+
+The project preview is scheduled for December 22, four weeks after the November 24 announcement. Windows executable availability will be announced separately. [Read the edition notes](docs/xbox-edition.md).
