@@ -1,24 +1,44 @@
 # LEONIDA
 
-<p align="center"><img src="assets/leonida.svg" width="132" alt="LEONIDA alligator emblem"></p>
+![Causeway at dusk — LEONIDA campaign artwork](assets/causeway.webp)
 
-**Xbox Edition for PC · Winter preview · December 22, 2026**
+**Xbox Edition for PC · Winter project preview · December 22, 2026**
 
-LEONIDA is an independent GTA VI fan project preparing a Windows edition inspired by the Xbox release. We believe players should have more say than a corporate platform in how they play. Our first public preview is a small coastal drive that runs entirely in your browser.
+A storm has just passed over the causeway. Across the water, the first lights are coming on. LEONIDA’s winter preview takes you from the waterfront to the tidal keys in an original **1.8 km browser drive**.
 
-## Play the browser demo
+### Play
 
-Download and extract the project, then open **index.html**. Choose **Launch drive** and steer using the arrow keys or the on-screen buttons. The page, artwork and demo work offline.
+Download the project folder and open **index.html**. Choose **Play coastal drive**, then hold the arrow keys or touch controls to steer. Leaving the pavement slows the coupe. Reach the keys for a finish time, or pause and resume along the way. The full site runs offline.
 
-## Repository guide
+### Xbox Edition for PC
 
-| Directory | Contents |
+LEONIDA is an independent GTA VI fan project pursuing an Xbox-inspired Windows edition. The winter countdown belongs to the project preview. Windows executable availability and native performance results will be announced separately. [Edition dossier](docs/xbox-edition.md)
+
+![Aerial study of the tidal keys](assets/tidal-keys.webp)
+
+### Inside the project
+
+| Path | Responsibility |
 | --- | --- |
-| [assets](assets/) | Original alligator emblem |
-| [docs](docs/xbox-edition.md) | Xbox Edition plans and winter release status |
-| [runtime](runtime/) | Browser driving scene and countdown logic |
-| [viewer](viewer/) | Responsive terminal interface |
+| [src/Site.tsx](src/Site.tsx) | Static React campaign page |
+| [src/components](src/components/) | Accessible drive dialog |
+| [src/drive](src/drive/) | Road projection, steering, timing and replay |
+| [src/edition.ts](src/edition.ts) | Shared release date and course length |
+| [viewer/campaign.css](viewer/campaign.css) | Responsive layout and typography |
+| [assets](assets/) | Original campaign artwork |
+| [runtime](runtime/) | Compiled browser JavaScript |
+| [scripts](scripts/) | Static build and offline release checks |
 
-## Coming soon
+### Build from source
 
-The project preview is scheduled for December 22, four weeks after the November 24 announcement. Windows executable availability will be announced separately. [Read the edition notes](docs/xbox-edition.md).
+Use Node.js with npm and Python 3. Run these commands in this folder.
+
+```sh
+npm install
+npm run build
+npm run check
+```
+
+The build produces index.html and runtime/preview.js. Both ship with the project, so visitors can open the release directly.
+
+Independent fan project, unaffiliated with Rockstar Games, Take-Two Interactive or Microsoft.

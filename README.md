@@ -2,7 +2,7 @@
 
 **Xbox Edition for PC · Independent GTA VI fan project**
 
-![Ocean Drive at sunset, illustrated for LEONIDA](assets/ocean-drive.jpg)
+![Ocean Drive at sunset, illustrated for LEONIDA](preview/assets/causeway.webp)
 
 LEONIDA is an independent GTA VI emulation project for Windows. Explore five proposed PC configurations across GeForce and Radeon hardware, from native 1080p to 4K. The first public Windows executable is planned for winter.
 
@@ -12,7 +12,7 @@ LEONIDA is preparing an Xbox-inspired Windows edition. The winter preview pairs 
 
 ## Winter browser demo
 
-**Soon · December 22, 2026.** The four-week preview includes an original coastal drive with keyboard and touch controls. Download the repository ZIP, extract it and open `preview/index.html` to play offline. [Explore the browser demo](preview/README.md).
+**Soon · December 22, 2026.** The winter campaign includes two original cinematic artworks and a playable 1.8 km coastal time trial. The source release includes the React and TypeScript interface, driving simulation, static build and browser checks. Download the repository ZIP, extract it and open `preview/index.html` to play offline. [Explore the browser demo](preview/README.md).
 
 ## PC profiles
 
