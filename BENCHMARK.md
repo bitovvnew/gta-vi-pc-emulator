@@ -1,9 +1,10 @@
-# Benchmark report template
+# LEONIDA benchmark report
 
 Use one copy per capture. Record the route and its duration so another tester can repeat the run.
 
 | Test conditions | Value |
 | :--- | :--- |
+| LEONIDA PC profile | |
 | Date and build identifier | |
 | CPU, GPU, RAM | |
 | Operating system and graphics driver | |
