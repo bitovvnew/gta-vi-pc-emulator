@@ -1,0 +1,13 @@
+{
+  "profile_type": "performance_target",
+  "verification_status": "unverified",
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "render_width": 2560,
+  "render_height": 1440,
+  "render_scale_percent": 100,
+  "upscaling": false,
+  "frame_generation": false,
+  "target_fps": 60,
+  "measured_fps": null,
+  "release_status": "Windows preview planned for winter"
+}
