@@ -1,4 +1,5 @@
 {
+  "project": "LEONIDA",
   "profile_type": "performance_target",
   "verification_status": "unverified",
   "gpu": "NVIDIA GeForce RTX 4070",
