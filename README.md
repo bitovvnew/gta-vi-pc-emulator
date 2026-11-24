@@ -1,5 +1,7 @@
 # LEONIDA
 
+**[Play the live coastal drive ↗](https://bitovvnew.github.io/leonida/)**
+
 **Xbox Edition for PC · Independent GTA VI fan project**
 
 ![Ocean Drive at sunset, illustrated for LEONIDA](preview/assets/causeway.webp)
