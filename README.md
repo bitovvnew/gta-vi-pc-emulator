@@ -1,10 +1,14 @@
 # LEONIDA
 
-**Grand Theft Auto VI · PC emulation for Windows**
+**Xbox Edition for PC · Independent GTA VI fan project**
 
 ![Ocean Drive at sunset, illustrated for LEONIDA](assets/ocean-drive.jpg)
 
 LEONIDA is an independent GTA VI emulation project for Windows. Explore five proposed PC configurations across GeForce and Radeon hardware, from native 1080p to 4K. The first public Windows executable is planned for winter.
+
+## Xbox Edition for PC
+
+LEONIDA is preparing an Xbox-inspired Windows edition. The winter preview pairs a terminal-style project dashboard with an original playable browser scene. [Read the edition dossier](preview/docs/xbox-edition.md).
 
 ## Winter browser demo
 
