@@ -1,3 +1,5 @@
-# Windows release preview
+# LEONIDA for Windows
 
-**Soon… Coming in winter.** The first official Windows executable for this independent fan project is planned for winter. The download, build number, and release date are pending.
+**Coming in winter.** The first public LEONIDA executable is planned for Windows. The build number, download and release date are pending.
+
+[Compare the five PC profiles](../README.md#pc-profiles)
